@@ -1,11 +1,6 @@
 <template>
   <div>
-    <Joke
-      v-for="joke in jokes"
-      :key="joke.id"
-      :id="joke.id"
-      :joke="joke.joke"
-    />
+    <Joke v-for="joke in jokes" :key="joke.id" :id="joke.id" :joke="joke.joke" />
   </div>
 </template>
 
@@ -34,7 +29,7 @@ export default {
         "https://icanhazdadjoke.com/search?limit=10",
         config
       );
-      console.log(res.data);
+      // console.log(res.data);
       this.jokes = res.data.results;
     } catch (err) {
       console.log(err);
