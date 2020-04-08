@@ -1,0 +1,12 @@
+maimous@i5-4590 MINGW64 ~/Desktop/dadjokes (master)
+$ surge dist
+
+   Running as stefaleon@gmail.com (Student)
+
+        project: dist
+         domain: nuxtls.surge.sh
+         upload: [====================] 100% eta: 0.0s (13 files, 239838 bytes)
+            CDN: [====================] 100%
+             IP: 45.55.110.124
+
+   Success! - Published to nuxtls.surge.sh
